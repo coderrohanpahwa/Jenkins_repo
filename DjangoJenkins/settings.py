@@ -40,12 +40,12 @@ INSTALLED_APPS = [
     'django_jenkins'
 ]
 
-PROJECT_APPS=("app",)
 
-JENKINS_TASKS = (
-'django_jenkins.tasks.run_pep8',
-'django_jenkins.tasks.run_pyflakes'
-)
+# JENKINS_TASKS = (
+# 'django_jenkins.tasks.run_pep8',
+# 'django_jenkins.tasks.run_pyflakes'
+# )
+PROJECT_APPS=["app"]
 
 
 
