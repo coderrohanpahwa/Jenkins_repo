@@ -46,7 +46,7 @@ INSTALLED_APPS = [
 # 'django_jenkins.tasks.run_pyflakes'
 # )
 PROJECT_APPS=["app"]
-
+INSTALLED_APPS+=PROJECT_APPS
 
 
 
